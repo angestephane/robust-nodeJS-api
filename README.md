@@ -2,6 +2,17 @@
 
 NodeJS robuste API est un boilerplate pour la conception des API RESTfull. Cette API repose sur une architecture totalement maintenable et réutilisable.
 
+## Les fonctionnalités complètes de cet exemple de projet écrit en NodeJS
+
+- Créer un projet
+- Lister tous les produits avec une option de pagination
+- Obtenir un produit spécifique à partir de son ID
+- Modifier un produit
+- Supprimer un produit
+- Créer un admin
+- Connecter un admin en utilisant JWT
+- Documentation de l'API avec Swagger.
+
 ## Tech Stack
 
 **Server:**
