@@ -16,7 +16,10 @@ module.exports = {
 
   userMessage: {
     USER_CREATED: "Utilisateur crée avec succès",
+    LOGIN_SUCCESS: "Utilisateur connecté avec succès",
     DUPLICATE_EMAIL: "Email déjà utilisé.",
+    USER_NOT_FOUND: "Utilisateur n'existe pas",
+    INVALID_PASSWORD: "Mot de passe invalide",
   },
 
   requestValidationMessage: {

@@ -24,7 +24,7 @@ module.exports.loginUser = async (req, res) => {
     response.body = data;
   } catch (err) {
     response.status = 400;
-    response.message = `Désolé, l'utilisateur n'est pas été crée, ${err.message}`;
+    response.message = err.message;
   }
   return res.status(response.status).send(response);
 };
