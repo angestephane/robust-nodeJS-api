@@ -29,6 +29,10 @@ NodeJS robuste API est un boilerplate pour la conception des API RESTfull. Cette
 
 - [![Joi](https://img.shields.io/badge/-Joi-informational.svg)](https://joi.dev/api/?v=17.9.1)
 
+**Documentation:**
+
+- [![Swagger](https://img.shields.io/badge/Swagger-documentation-green)](https://swagger.io)
+
 ## Installation
 
 Vous devez disposer de NodeJS && npm installé sur votre machine
@@ -60,6 +64,20 @@ Dans un fichier .env que vous allez créer :
 2. Définissez un port d'accès au server, sinon le port par défaut sera 3000 : `PORT`
 
 3. Explorer le code et modifier les schemas et modèles en fonction de vos besoins. L'API s'adaptera.
+
+### Documentation
+
+L'API présenté dans ce projet à été document avec Swagger.
+**_Cette documentation est accessible uniquement en mode dev_**
+Pour consulter la documentation :
+
+1. exécuter le projet :
+
+```bash
+npm run dev
+```
+
+2. Vous vous rendez ensuite sur : `http://localhost:3002/api-docs/`
 
 ## Feedback
 

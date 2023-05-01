@@ -7,7 +7,7 @@ module.exports = {
 
   productMessage: {
     PRODUCT_CREATED: "Produit crée avec succès",
-    PRODUCT_FETCHING: "Produit récupéré avec succès",
+    PRODUCT_FETCHING: "Produits récupérés avec succès !",
     PRODUCT_NOT_FOUND: "Produit n'existe pas",
     PRODUCT_FETCHED: "produit récupéré avec succès !",
     PRODUCT_UPDATED: "produit mis à jour avec succès !",

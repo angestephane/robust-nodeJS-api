@@ -1,6 +1,10 @@
 const express = require("express");
 const connexionDB = require("./src/database/connexion");
 
+const swaggerUi = require("swagger-ui-express");
+const YAML = require("yamljs");
+const swaggerDocument = YAML.load("./swagger.yaml");
+
 const dotEnv = require("dotenv");
 dotEnv.config();
 
@@ -15,6 +19,11 @@ app.use(express.urlencoded({ extended: true }));
 
 app.use("/api/v1/product", require("./src/routes/productRoute"));
 app.use("/api/v1/user", require("./src/routes/userRoute"));
+
+// API Documentation
+if (process.env.NODE_ENV !== "production") {
+  app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(swaggerDocument));
+}
 
 app.get("/", (req, res, next) => {
   res.send("This is my first API");
