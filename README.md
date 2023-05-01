@@ -67,8 +67,8 @@ Dans un fichier .env que vous allez créer :
 
 ### Documentation
 
-L'API présenté dans ce projet à été document avec Swagger.
-**_Cette documentation est accessible uniquement en mode dev_**
+L'API présenté dans ce projet à été document avec Swagger.  
+**_Cette documentation est accessible uniquement en mode dev_**  
 Pour consulter la documentation :
 
 1. exécuter le projet :
