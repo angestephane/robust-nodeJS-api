@@ -24,6 +24,7 @@ module.exports = {
 
   requestValidationMessage: {
     BAD_REQUEST: "Champ Invalide",
+    TOKEN_MISSING: "Jeton manquant dans l'en-tête de la demande",
   },
 
   databaseMessage: {
