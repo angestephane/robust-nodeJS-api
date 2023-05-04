@@ -26,7 +26,7 @@ if (process.env.NODE_ENV !== "production") {
 }
 
 app.get("/", (req, res, next) => {
-  res.send("This is my first API");
+  res.send("Welcome to my Robust Node.js API");
 });
 
 app.use((req, res, next) => {
